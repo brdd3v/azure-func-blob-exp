@@ -1,0 +1,3 @@
+config:
+  azure:location: Germany West Central
+  azure:skipProviderRegistration: "true"
