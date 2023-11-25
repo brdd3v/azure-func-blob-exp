@@ -47,6 +47,5 @@ appservice.LinuxFunctionApp('linux_function',
                             ),
                             app_settings={
                                 'SCM_DO_BUILD_DURING_DEPLOYMENT': True,
-                                'ENABLE_ORYX_BUILD': True,
                                 'FUNCTIONS_WORKER_RUNTIME': 'python'
                             })

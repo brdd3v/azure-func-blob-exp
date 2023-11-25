@@ -43,7 +43,6 @@ resource "azurerm_linux_function_app" "linux_func" {
 
   app_settings = {
     SCM_DO_BUILD_DURING_DEPLOYMENT = true
-    ENABLE_ORYX_BUILD              = true
     FUNCTIONS_WORKER_RUNTIME       = "python"
   }
 }
